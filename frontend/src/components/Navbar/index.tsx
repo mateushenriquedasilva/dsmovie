@@ -1,5 +1,5 @@
 import GithubIcon from "../../assets/img/github.svg";
-import "./style.scss";
+import "./style.css";
 
 export default function Navbar() {
   return (
@@ -7,9 +7,13 @@ export default function Navbar() {
       <nav className="container">
         <div className="dsmovie-nav-content">
           <h1>DSMovie</h1>
-          <a href="https://github.com/mateushenriquedasilva">
-            <div className="dsmoive-contact-contaner">
-              <img src={GithubIcon} alt="icon for gitbub" />
+          <a
+            href="https://github.com/mateushenriquedasilva"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="dsmovie-contact-container">
+              <img src={GithubIcon} alt="github icon" />
               <p className="dsmovie-contact-link">/mateushenriquedasilva</p>
             </div>
           </a>
